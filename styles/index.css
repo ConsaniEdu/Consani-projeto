@@ -35,13 +35,20 @@
     margin: 0;
         
     }
-
     .login .senha-elemento input{
      
         height: 21px;
         border-radius: 10px;
         width: 140px;
         border: none;
+    }
+
+    .input-wrapper{
+        padding: 8px 12px;
+        display: flex;
+        align-items: center;
+        gap: 6px
+
     }
 
 }

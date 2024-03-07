@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Consani-projeto/styles/index.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <title>Login</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="usuario-elemento">
                     <i class="fa-solid fa-user"></i>
-                    <input placeholder="Nome de usuario" type="text">
+                    <input id="usuario" placeholder="Nome de usuario" type="text">
                 </div>
     
                 <div class="senha">
@@ -30,12 +30,14 @@
                 </div>
                 <div class="senha-elemento">
                     <i class="fa-solid fa-unlock"></i>
-                    <input placeholder="******" type="password">
+                    <input id="senha" placeholder="******" type="password">
                 </div>
+                <button> entrar</button>
     </div>            
         </form>
     </div>
     </main>
     <footer></footer>
+    <script src="./js/autenticação.js"></script>
 </body>
 </html>
