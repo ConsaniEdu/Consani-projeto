@@ -1,7 +1,7 @@
 @media (max-width:450px){
 .principal{
     width: 100%;
-    height: 150px;
+
     background-color: rgb(88, 111, 247);
     display: flex;
     align-items: center;
@@ -10,8 +10,10 @@
 }
 
 .principal .maior{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+
 
 }
 
@@ -21,18 +23,15 @@
 }
 
 .maior .img{
-    position: relative;
-    top: -51px;
-    left: -2px;
     width: 20vh;
-    height: 20vh;
+
+
 }
 
 .maior .container-wrapper{
     position: relative;
     height: 37px;
-    top: 17px;
-    left: -4px;
+    
 }
 
 .maior .container{
@@ -59,9 +58,9 @@
 .principal .maior .container-icon{
     position: relative;
     height: 40px;
+    width: 40px;
     border-radius: 8px;
-    top: 17px;
-    left: -3px;
+   
     background-color: rgb(251, 255, 0);
 }
 
@@ -80,12 +79,38 @@
 
 .principal .principal-categoria{
     background-color: rgb(238, 255, 0);
-    height: 75px;
-    width: 100vh;
-    position: relative;
-    top: 2px;
-    left: 2px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    
+}
+
+.principal-main .mais-vendidos .cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(255, 255, 0);
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    color: rgb(15, 231, 231);
+}
+
+
+.principal-main .mais-vendidos .imagens{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.principal-main .mais-vendidos .imagens .card .card-img-top{
+    height: 190px;
+
 }
 
 }

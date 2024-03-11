@@ -4,7 +4,7 @@ const senha = document.getElementById("senha");
 document.getElementsByClassName("formLogin")[0].addEventListener("submit", function (e){
    e.preventDefault(); 
 
-if (usuario.ariaValueMax.trim()=="" || senha.value.trim()==""){
+if (usuario.value.trim()=="" || senha.value.trim()==""){
     alert("preencha os campos");
 }
 

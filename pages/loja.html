@@ -7,29 +7,31 @@
     <script src="https://kit.fontawesome.com/369219a4a6.js" crossorigin="anonymous"></script>
     <title>Senai - biblioteca</title>
 </head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</script>
 <body>
     <header class="principal">
         <div class="maior">
-            <div class="imge">
-            <img class="img" src="./../assets/senai-165.png" alt="">
+             <div class="imge">
+                <img class="img" src="./../assets/senai-165.png" alt="">
             </div>
-        <div class="container-wrapper">
-            <div class="container">
-                <div class="input-wrapper">
-                <input placeholder="pesquisar..." type="text">
-                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <div class="container-wrapper">
+                <div class="container">
+                    <div class="input-wrapper">
+                    <input placeholder="pesquisar..." type="text">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container-icon">    
+                <div class="icon">
+                    <i class="fa-sharp fa-solid fa-shop"></i>
+                    <p>Loja</p>
                 </div>
             </div>
         </div>
-            <div class="container-icon">    
-                    <div class="icon">
-                    <i class="fa-sharp fa-solid fa-shop"></i>
-                    <p>Loja</p>
-                    </div>
-            </div>
-        </div>
 
-        <div class="principal-categoria">
+            <div class="principal-categoria">
                 <div class="1">
                     <p>acessorios</p>
                 </div>
@@ -60,12 +62,94 @@
                 <div class="10">
                     <p></p>
                 </div>
+                <div class="11">
+                    <p>comedia</p>
+                </div>
+                <div class="12">
+                    <p>religiao e espiritualidade</p>
+                </div>
+                <div class="13">
+                    <p>biografias</p>
+                </div>
 
-        </div>
-
-
-
+            </div>
     </header>
     
+    
+    <main class="principal-main">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./../assets/LC_Banner-Dsk_M1DM.png" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./../assets/LC_Banner_Dsk_BDMN.png" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./../assets/LC_Banner_Dsk_Editora-Todo-Livro.png" alt="Terceiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./../assets/LC_Banner_Dsk_Editoras_ACDN.png" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+          <div class="mais-vendidos">
+            <hr>
+            <div class="cabeçalho">
+                <h2>Mais vendidos</h2>
+            </div>
+            
+        <div class="imagens">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/5110uLjo7BL.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">O livro das magicas do menino maluquinho</h5>
+                  <p class="card-text">Ziraldo Alves Pinto</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/LV471779.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Psicologia financeira</h5>
+                  <p class="card-text">robert wilias</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/O-Lado-Sombrio-do-Sítio-André-Vianco.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">O lado sombrio do sitio</h5>
+                  <p class="card-text">André Vianco</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./../assets/lv506858_1.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">O livro secreto da carreira</h5>
+                  <p class="card-text">Paula Boarin</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+
+            </div>
+          
+          
+            </div>
+
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
