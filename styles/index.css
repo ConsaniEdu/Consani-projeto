@@ -1,0 +1,54 @@
+@media (max-width: 350px){
+    body{
+        background-color: rgb(83, 182, 182);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 100vh;
+        border-radius: 13px;
+        margin: 0;
+        padding: 0;
+    }
+    .login{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;    
+        width: 200px;
+        height: 350px;
+        background-color: darkcyan;
+        border-radius: 13px;
+      
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .login .usuario-elemento input{
+        margin: 0;
+        height: 21px;
+        border-radius: 10px;
+        width: 140px;
+        border: none;
+    }
+
+    .login .usuario label{
+    margin: 0;
+        
+    }
+    .login .senha-elemento input{
+     
+        height: 21px;
+        border-radius: 10px;
+        width: 140px;
+        border: none;
+    }
+
+    .input-wrapper{
+        padding: 8px 12px;
+        display: flex;
+        align-items: center;
+        gap: 6px
+
+    }
+
+}
